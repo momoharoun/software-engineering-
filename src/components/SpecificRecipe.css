@@ -1,0 +1,33 @@
+.recipe-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .recipe-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-details {
+    margin-bottom: 20px;
+  }
+  
+  .recipe-details p {
+    margin: 0;
+  }
+  
+  .description-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-description-container {
+    border: 2px solid #6ab04c;
+    padding: 10px;
+  }
+  
+  .recipe-description {
+    line-height: 1.5;
+  }

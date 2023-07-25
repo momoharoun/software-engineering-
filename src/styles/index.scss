@@ -1,0 +1,80 @@
+// Done by Jannatul 
+
+:root{
+    --background-color: rgb(29, 29, 29);
+    --background-light: rgb(77, 77, 77);
+    --shadow-color: rgba(0,0,0,0.2);
+    --primary-color: rgb(28, 216, 11);
+    --text-color: #fff;
+    --text-light: #575757;
+    --font-size: 16px;
+    --animation-speed: 1;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size : var(--font-size);
+    font-family: 'Roboto', sans-serif;
+    padding-top: 80px;
+}
+.container{
+    padding-inline: 20vw;
+}
+.main{
+    padding-block: 3vw;
+}
+@media screen and (max-width: 1280px){
+    .container{
+        padding-inline: 18vw;
+    }
+}
+@media screen and (max-width: 1050px){
+    .container{
+        padding-inline: 12vw;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        padding-inline: 6vw;
+    }
+    .navbar{
+        .nav-links{
+            display: none;
+        }
+        .sidebar-btn{
+            display: block;
+        }
+    }
+    .home-section{
+        .col{
+            width: 100%;
+            padding: 0 !important;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+    }
+    .footer{
+        grid-template-columns: repear(4, 1fr) ;
+        .footer-section:nth-child(1){
+            grid-column: span 4;
+        }
+        .footer-section:nth-child(2){
+            grid-column: span 2;
+        }
+        .footer-section:nth-child(3){
+            grid-column: span 2;
+        }
+        
+    }
+}
+@media screen and (max-width: 480px){
+    .container{
+        padding-inline: 3vw;
+    }
+}

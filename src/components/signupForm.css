@@ -1,0 +1,40 @@
+  /* Done by Wasik and Jannatul */
+.cover-sign{
+    z-index:950;
+    background-color:  rgb(241, 239, 239);
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(50, 53, 50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    display: flex;  
+}
+.form-group-c1,
+.form-group-c2 {
+ display: inline-block;
+ width: 60%;
+}
+
+#SignUpbutton{
+    width:50%;
+    height: 3em;
+    background-color: rgb(102, 120, 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+
+}
+#SignUpbutton:hover {
+    transform:Scale(1.25);
+}
+.already-account {
+    text-align: center;
+    margin-top: 1rem;
+  }
